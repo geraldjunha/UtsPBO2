@@ -187,6 +187,7 @@ public class Toko extends javax.swing.JFrame {
         jScrollPane2.setBounds(10, 20, 750, 170);
 
         btnAdd.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnAdd.setForeground(new java.awt.Color(255, 0, 0));
         btnAdd.setText("Save");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -197,6 +198,7 @@ public class Toko extends javax.swing.JFrame {
         btnAdd.setBounds(190, 200, 80, 30);
 
         Delete.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        Delete.setForeground(new java.awt.Color(255, 0, 0));
         Delete.setText("Delete");
         Delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,6 +209,7 @@ public class Toko extends javax.swing.JFrame {
         Delete.setBounds(370, 200, 80, 30);
 
         btnPrint.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnPrint.setForeground(new java.awt.Color(255, 0, 0));
         btnPrint.setText("Print");
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -217,6 +220,7 @@ public class Toko extends javax.swing.JFrame {
         btnPrint.setBounds(550, 200, 80, 30);
 
         btnRefresh.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnRefresh.setForeground(new java.awt.Color(255, 0, 0));
         btnRefresh.setText("Refresh");
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,6 +231,7 @@ public class Toko extends javax.swing.JFrame {
         btnRefresh.setBounds(460, 200, 80, 30);
 
         Reset.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        Reset.setForeground(new java.awt.Color(255, 0, 0));
         Reset.setText("Clear");
         Reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

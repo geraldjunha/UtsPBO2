@@ -35,55 +35,70 @@ public class Login extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        txtnama = new javax.swing.JTextField();
+        txtpass = new javax.swing.JTextField();
+        jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         btnSignUp = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
         btnSignIn = new javax.swing.JButton();
-        txtnama = new javax.swing.JTextField();
-        txtpass = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+        getContentPane().add(txtnama);
+        txtnama.setBounds(110, 120, 190, 30);
+        getContentPane().add(txtpass);
+        txtpass.setBounds(110, 190, 190, 30);
 
+        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel1.setLayout(null);
+
+        jLabel3.setFont(new java.awt.Font("Pristina", 1, 36)); // NOI18N
         jLabel3.setText("Username");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(170, 80, 110, 30);
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(130, 70, 190, 50);
 
+        jLabel2.setFont(new java.awt.Font("Pristina", 1, 36)); // NOI18N
         jLabel2.setText("Password");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(170, 150, 110, 30);
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(130, 150, 140, 40);
 
+        btnSignUp.setFont(new java.awt.Font("Goudy Stout", 0, 10)); // NOI18N
+        btnSignUp.setForeground(new java.awt.Color(255, 0, 0));
         btnSignUp.setText("Sign Up");
         btnSignUp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSignUpActionPerformed(evt);
             }
         });
-        getContentPane().add(btnSignUp);
-        btnSignUp.setBounds(30, 230, 100, 40);
+        jPanel1.add(btnSignUp);
+        btnSignUp.setBounds(20, 230, 110, 40);
 
+        btnExit.setFont(new java.awt.Font("Goudy Stout", 0, 10)); // NOI18N
+        btnExit.setForeground(new java.awt.Color(255, 0, 0));
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnExitActionPerformed(evt);
             }
         });
-        getContentPane().add(btnExit);
-        btnExit.setBounds(150, 230, 90, 40);
+        jPanel1.add(btnExit);
+        btnExit.setBounds(150, 230, 110, 40);
 
+        btnSignIn.setFont(new java.awt.Font("Goudy Stout", 0, 10)); // NOI18N
+        btnSignIn.setForeground(new java.awt.Color(255, 0, 0));
         btnSignIn.setText("Sign In");
         btnSignIn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSignInActionPerformed(evt);
             }
         });
-        getContentPane().add(btnSignIn);
-        btnSignIn.setBounds(260, 230, 100, 40);
-        getContentPane().add(txtnama);
-        txtnama.setBounds(110, 120, 190, 30);
-        getContentPane().add(txtpass);
-        txtpass.setBounds(110, 190, 190, 30);
+        jPanel1.add(btnSignIn);
+        btnSignIn.setBounds(280, 230, 110, 40);
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 310);
 
         setBounds(0, 0, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -176,6 +191,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JButton btnSignUp;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtnama;
     private javax.swing.JTextField txtpass;
     // End of variables declaration//GEN-END:variables
